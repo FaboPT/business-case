@@ -1,0 +1,24 @@
+.page-item.active .page-link {
+    z-index: 3;
+    color: #ffffff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option--highlighted[aria-selected]:hover {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.btn-link {
+    color: #28a745;
+}
+
+.nav-link {
+    color: #28a745;
+!important;
+}
+
+
+
