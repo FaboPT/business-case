@@ -29,7 +29,7 @@
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                @hasanyrole('admin|simples')
+                @hasanyrole('admin|simple')
                 <li class="nav-item">
                     <a href="{{route('task_index')}}" class="nav-link" style="color:#28a745">
                         <i class="nav-icon fas fa-tasks"></i>
